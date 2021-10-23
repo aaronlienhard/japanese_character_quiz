@@ -1,0 +1,105 @@
+h1 {
+    position: fixed;
+    top: 0px;
+    font-family: "ubuntu", serif; 
+    font-size: 40px;
+    color: white;
+    margin-left: 4%;
+}
+
+h2 {
+    position: fixed;
+    top: 55px;
+    font-family: "lora";
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.Screen_Text {
+    position: fixed;
+    top: 0px;
+    font-family: "lora";
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    background-color: #222222;
+}
+
+#Light_Moon {
+    position: fixed; 
+    bottom: 10px; 
+    left: 5px;
+}
+
+#Light_Sun {
+    position: fixed; 
+    bottom: 10px; 
+    left: 60px;
+}
+
+#Hiragana_Button {
+    position: fixed;
+    top: 200px;
+}
+
+#Katakana_Button {
+    position: fixed;
+    top: 200px;
+    left: 520px;
+}
+
+#Kanji_Button {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+#Hiragana_and_Katakana_Button {
+    position: fixed;
+    top: 425px;
+    left: 200px;
+}
+
+#All_Three_Button {
+    position: fixed;
+    top: 550px;
+    left: 200px;
+}
+
+#Ten_Questions_Button {
+    position: fixed;
+    top: 200px;
+}
+
+#Fifteen_Questions_Button {
+    position: fixed;
+    top: 200px;
+    left: 520px;
+}
+
+#Twenty_Questions_Button {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+#Start_Button {
+    position: fixed;
+    top: 425px;
+    left: 200px;
+}
+
+#Home_Button {
+    position: fixed;
+    top: 550px;
+    left: 200px; 
+}
+
+/* Set width and height relative to browser */
+#Main {
+    min-height: 100vh;
+    min-width: 100vh;
+}
