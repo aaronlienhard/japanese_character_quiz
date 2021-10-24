@@ -13,38 +13,34 @@
 </head>
 <body>
     
-    <h2 class="Screen_Text"> <p> Welcome to the hiragana test! It’s as simple as choosing the amount of questions you would like and then 
-        clicking the start button to begin. Once the test begins all you need to do is type the romaji or hiragana version 
-        of the hiragana character shown on screen. The test will stop after your desired question amount and give you your score.</p></h2>
+    <h1> Hiragana Quiz </h1>>
 
-    <button id="Ten_Questions_Button" onclick="updateAmount10()">
-        10 Questions
+    <div class="answer_border"></div>
+    
+    <div class="question_amount">
+        <!-- placeholder -->
+        0 / 20
+    </div>
+
+    <input type="text" id="text_submit" name="text_submit" placeholder="Type your answer...">
+
+    
+    <button id="Pass_Button" onClick=>
+        Pass Question
     </button>>
     
-    <button id="Fifteen_Questions_Button" onclick="updateAmount15()">
-        15 Questions
-    </button>>
-    
-    <button id="Twenty_Questions_Button" onclick="updateAmount20()">
-        20 Questions
-    </button>>
-    
-    <button id="Start_Button" onClick="self.location='hiragana_quiz_dark.html'">
-        Start Quiz
-    </button>>
-    
-    <button id="Home_Button" onClick="self.location='../index_dark.html'">
-        Return Back to Home
+    <button id="Submit_Button" onClick=>
+        Submit
     </button>>
 
     <div id="Light_Moon">
-        <a href=hiragana_dark.html>
+        <a href=hiragana_quiz_dark.html>
             <img src="../../Images/Light Moon.png" alt="Light Moon">
         </a>
     </div>
-
+        
     <div id="Light_Sun">
-        <a href=../../Light_Mode/Hiragana_Quiz/hiragana.html>
+        <a href=../../Light_Mode/Hiragana_Quiz/hiragana_quiz.html>
             <img src="../../Images/Light Sun.png" alt="Light Sun">
         </a>
     </div>
